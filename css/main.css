@@ -107,7 +107,7 @@ img {
 
     color: #e2e2e2;
     font-size: 2em;
-    font-family: 'Six Caps', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     text-decoration: none;
 }
 
@@ -119,7 +119,7 @@ img {
 .nav .nav-current:visited {
   background-color: #FFFFFF;
 
-  color: #e2e2e2;
+  color: black;
 }
 
 .masthead {
@@ -129,7 +129,7 @@ img {
 }
 
 .intro {
-    padding: 5rem 10rem 7rem;
+    padding: 5rem 0rem 7rem;
     font-family: 'Helvetica', sans-serif;
     font-size: 2.5rem;
     text-align:center;
@@ -233,35 +233,77 @@ fieldset {
     font-family: 'Helvetica', sans-serif;
 }
     
-
 @media only screen and (min-width: 25em) {
     
-    .nav {
+    .consortium {
+        text-align: center
+    }
+
+  .nav {
     text-align: center;
   }
 
   .nav li {
     display: inline-block;
   }
-    
+
+    .h2 {
+    padding-top: 2em;
+    }
 }
 
  
 
 @media only screen and (min-width: 38em) {
     
-     .nav {
+
+  .title {
+    float: left;
+}
+
+    .consortium {
+        text-align: left;
+    }
+    
+.nav {
+        text-align: right;
+    }
+
+  .nav-bottom {
     text-align: right;
   }
+
+.h2 {
+    padding-top: 2em;
+}
+
 }
     
 @media only screen and (min-width: 60em) {
     
+   .title {
+  margin: 0;
+    text-align:left;
+}
+    
+    .consortium {
+        text-align: left;
+    }
     
     .nav-bottom {
         text-align: right;
     }
-  
+    
+.dt {
+  clear: left;
+  float: left;
+  width: 8em;
+}
+
+.dd {
+  float: left;
+}
+    
 }
 
 
