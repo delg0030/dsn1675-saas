@@ -123,7 +123,7 @@ img {
 }
 
 .masthead {
-    background-image:url(../images/art.jpg);
+    background-image:url(../images/hands.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -132,7 +132,6 @@ img {
     padding: 15rem 15rem 7rem;
     font-family: 'Six Caps', sans-serif;
     font-size: 2.5rem;
-    text-align:left;
 }
   
 .intropara {
@@ -183,6 +182,7 @@ textarea {
 button {
     font-size: 2rem;
     font-family:'Six Caps', sans-serif;
+    color: #fff;
     padding: 0.5em 0.75em;
     background-color: transparent;
     border: 5px solid #fff;
@@ -203,6 +203,17 @@ fieldset {
     padding-bottom: 8rem;
 }
 
+.tourimage {
+    background-image:url(../images/wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tourintro {
+    padding: 28rem 28rem 10rem;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 2.5rem;
+}
 
 @media only screen and (min-width: 25em) {
     
