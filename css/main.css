@@ -129,9 +129,10 @@ img {
 }
 
 .intro {
-    padding: 15rem 15rem 7rem;
-    font-family: 'Six Caps', sans-serif;
+    padding: 5rem 10rem 7rem;
+    font-family: 'Helvetica', sans-serif;
     font-size: 2.5rem;
+    text-align:center;
 }
   
 .intropara {
@@ -179,7 +180,7 @@ textarea {
 }
 
 
-button {
+.getting {
     font-size: 2rem;
     font-family:'Six Caps', sans-serif;
     color: #fff;
@@ -200,20 +201,38 @@ fieldset {
 
 .move {
     text-align:center;
-    padding-bottom: 8rem;
-}
-
-.tourimage {
-    background-image:url(../images/wood.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding-bottom: 18rem;
 }
 
 .tourintro {
-    padding: 28rem 28rem 10rem;
-    font-family: 'Six Caps', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 2.5rem;
+    text-align:center;
+    padding-top: 2em;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
+
+.boxes {
+    padding: .5em;
+    margin: auto;
+    background-color: black;
+    border: 5px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.steps {
+    color: white;
+    text-align:center;
+}
+
+.captions {
+    color: white;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+}
+    
 
 @media only screen and (min-width: 25em) {
     
