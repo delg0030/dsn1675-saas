@@ -272,6 +272,14 @@ fieldset {
     border-radius: 6px;
 }
 
+.plans {
+    padding-bottom: -30rem;
+    margin: 0rem  0rem 1rem 0rem;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 6px;
+}
+
 .steps {
     color: white;
     text-align:center;
@@ -313,9 +321,26 @@ button {
     text-decoration: none;
     cursor: pointer;
 }
-    
 
-    
+.gold {
+    font-family: 'Helvetica', sans-serif;
+    text-align:center;
+    color: gold;
+}
+
+.free {
+   font-family: 'Helvetica', sans-serif;
+    text-align:center;
+    color: black;
+}
+
+.silver {
+   font-family: 'Helvetica', sans-serif;
+    text-align:center;
+    color: silver;
+}
+
+
 @media only screen and (min-width: 25em) {
     
     .consortium {
