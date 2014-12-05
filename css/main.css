@@ -136,7 +136,7 @@ img {
 .intro {
     padding: 0rem 0rem -5rem;
     font-family: 'Helvetica', sans-serif;
-    font-size: 2.5rem;
+    font-size: 4rem;
     text-align:center;
     margin-top: 3rem;
 }
@@ -221,6 +221,23 @@ textarea {
     text-decoration: none;
 }
 
+.me {
+    font-size: 1rem;
+    font-family:'Six Caps', sans-serif;
+    color: #FF0066;
+    padding: .5rem;
+    margin: 5rem;
+    cursor: pointer;
+    border: 3px solid #FF0066;
+    text-decoration: none;
+}
+
+.individual {
+    text-align:center;
+    padding:0;
+    margin:0;
+}
+    
 .almost {
     font-size: 1rem;
     font-family:'Helvetica', sans-serif;
@@ -230,6 +247,10 @@ textarea {
     text-decoration: underline;
     text-decoration-color: black;
     cursor: pointer;
+}
+
+.surround {
+    margin: 0 1;
 }
 
 .radio {
@@ -279,8 +300,8 @@ fieldset {
 }
 
 .plans {
-    padding-bottom: -30rem;
-    margin: 0rem  0rem 1rem 0rem;
+    padding-bottom: 3rem;
+    margin: 0rem  0rem 2rem 0rem;
     background-color: white;
     border: 5px solid black;
     border-radius: 6px;
@@ -312,7 +333,7 @@ button {
     color: black;
     padding: 0.5em 0.75em;
     background-color: transparent;
-    border: 5px solid black;
+    border: 5px solid #FF0066;
     border-radius: 6px;
     cursor: pointer;
     text-decoration: none;
@@ -321,29 +342,18 @@ button {
 .final {
     font-size: 1.5rem;
     font-family:'Helvetica', sans-serif;
-    color: black;
+    color: #FF0066;
     padding: 0;
     background-color: transparent;
     text-decoration: none;
     cursor: pointer;
 }
 
-.gold {
-    font-family: 'Helvetica', sans-serif;
-    text-align:center;
-    color: gold;
-}
-
-.free {
-   font-family: 'Helvetica', sans-serif;
-    text-align:center;
-    color: black;
-}
-
 .silver {
    font-family: 'Helvetica', sans-serif;
     text-align:center;
     color: silver;
+    padding: 1rem 0 0 0;
 }
 
 
