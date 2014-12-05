@@ -272,6 +272,12 @@ fieldset {
     border-radius: 6px;
 }
 
+.boxes img {
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 1rem;
+}
+
 .plans {
     padding-bottom: -30rem;
     margin: 0rem  0rem 1rem 0rem;
@@ -283,7 +289,7 @@ fieldset {
 .steps {
     color: white;
     text-align:center;
-    padding: 0;
+    padding: 1rem 0 2rem 0;
     margin: 0;
 }
 
