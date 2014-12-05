@@ -62,6 +62,10 @@ body {
     color: #e2e2e2;
 }
 
+.form {
+    color: #707070;
+}
+
 a:focus {
     outline: 3px solid #000;
 }
@@ -137,6 +141,11 @@ img {
     margin-top: 3rem;
 }
 
+.up {
+    padding: 0rem 0rem -5rem;
+    margin: 0;
+}
+
 .description {
     font-family: 'Helvetica', sans-serif;
     font-size: 1.5rem;
@@ -146,6 +155,14 @@ img {
     color: black;
 }
   
+.options {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1rem;
+    text-align:center;
+    padding:  1rem 0rem 4rem;
+    margin-top: -2rem;
+    color: black;
+}
 
 .intropara {
     text-align:left;
@@ -204,6 +221,17 @@ textarea {
     text-decoration: none;
 }
 
+.almost {
+    font-size: 1rem;
+    font-family:'Helvetica', sans-serif;
+    color: black;
+    padding: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+}
+
 .radio {
     white-space: nowrap;
 }
@@ -215,6 +243,10 @@ fieldset {
 .move {
     text-align:center;
     padding-bottom: 18rem;
+}
+
+.centre {
+    text-align: center;
 }
 
 .tourintro {
@@ -260,6 +292,29 @@ fieldset {
     padding: 0;
 }
 
+button {
+    font-size: 1.5rem;
+    font-family:'Helvetica', sans-serif;
+    color: black;
+    padding: 0.5em 0.75em;
+    background-color: transparent;
+    border: 5px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.final {
+    font-size: 1.5rem;
+    font-family:'Helvetica', sans-serif;
+    color: black;
+    padding: 0;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+    
+
     
 @media only screen and (min-width: 25em) {
     
@@ -279,13 +334,6 @@ fieldset {
     .h2 {
     padding-top: 2em;
     }
-    
-////transparent {
-    background-color: rgba(255, 255, 255, 0.5);
-    margin: 4rem 0rem;
-    padding: .5rem;
-}
-    
 }
 
  
