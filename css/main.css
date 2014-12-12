@@ -156,6 +156,13 @@ img {
     color: black;
 }
 
+.introtwo {
+    padding: 0rem 0rem -5rem;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 5em;
+    margin-top: 5rem;
+}
+
 .intropara {
     text-align:left;
 }
