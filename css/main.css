@@ -221,6 +221,19 @@ textarea {
     text-decoration: none;
 }
 
+.gettingtwo {
+    font-size: 2rem;
+    font-family:'Six Caps', sans-serif;
+    color: black;
+    padding: 0.5em;
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 5px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .me {
     font-size: 1rem;
     font-family:'Six Caps', sans-serif;
@@ -234,10 +247,22 @@ textarea {
 
 .individual {
     text-align:center;
-    padding:0;
+    padding-top: 4em;
     margin:0;
 }
-    
+
+.individualtwo {
+    text-align:center;
+    padding-top: 2.5em;
+    margin:0;
+}
+   
+.individualthree {
+    text-align:center;
+    padding-top: 1em;
+    margin:0;
+}
+
 .almost {
     font-size: 1rem;
     font-family:'Helvetica', sans-serif;
@@ -264,6 +289,12 @@ fieldset {
 .move {
     text-align:center;
     padding-bottom: 18rem;
+}
+
+.movetwo {
+    text-align:center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .centre {
@@ -300,11 +331,12 @@ fieldset {
 }
 
 .plans {
-    padding-bottom: 3rem;
-    margin: 0rem  0rem 2rem 0rem;
+    padding-bottom: 5em;
+    margin: 0, 3rem, 0, 3rem;
     background-color: white;
-    border: 5px solid black;
-    border-radius: 6px;
+    border-right: ;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
 }
 
 .steps {
@@ -337,6 +369,13 @@ button {
     border-radius: 6px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.thankyou {
+    font-size: 4rem;
+    font-family: 'Helvetica', sans-serif;
+    color: #FF0066;
+    text-align: center;
 }
 
 .final {
@@ -404,12 +443,6 @@ button {
     padding-top: 2em;
 }
 
-////transparent {
-    background-color: rgba(255, 255, 255, 0.5);
-    margin: 4rem 0rem;
-    padding: .5rem;
-}
-
 }
     
 @media only screen and (min-width: 60em) {
@@ -437,12 +470,6 @@ button {
 
 .dd {
   float: left;
-}
-    
-////transparent {
-    background-color: rgba(255, 255, 255, 0.5);
-    margin: 2rem 8rem;
-    padding: .5rem;
 }
     
 }
